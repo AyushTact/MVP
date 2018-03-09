@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tact.myapplication.SigninActivity">
+
+
+    <LinearLayout
+        android:id="@+id/llMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etUserName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="USER_NAME" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:hint="PASSWORD"
+            android:inputType="textPassword" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/llMain"
+        android:text="SUBMIT"
+
+        />
+
+</RelativeLayout>
